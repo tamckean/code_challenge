@@ -1,8 +1,8 @@
 # code_challenge
-Corteva Code Challenge
+# Corteva Code Challenge
 
-Problem #1 - Data Model
-Summary of Solution
+## Problem #1 - Data Model
+### Summary of Solution
     MySQL Database (8.0.32)
     MySQL Workbench (8.0)
     Dimension Model with staging tables
