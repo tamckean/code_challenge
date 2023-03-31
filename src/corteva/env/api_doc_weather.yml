@@ -1,0 +1,49 @@
+summary: "An array of weather by day for weather station"
+description: "This is a simple API to get Weather Data."
+produces:
+- "application/json"
+parameters:
+- in: query
+  name: date
+  schema:
+    type: string
+  description: format yyyy-mm-dd
+- in: query
+  name: station
+  schema:
+    type: string
+  description: code in form of USC...
+responses:
+  200:
+    description: "Success"
+    schema:
+      type: "object"
+      properties:
+        results:
+          type: array
+          items:
+            type: object
+            properties: 
+              date: 
+                type: string
+              station: 
+                type: string
+              max_daily_temp: 
+                type: string
+              min_daily_temp: 
+                type: string
+              daily_precipitation: 
+                type: string
+        pagnation:
+          type: object
+          properties:
+            count: 
+              type: integer
+            page: 
+              type: integer
+            per_page: 
+              type: integer
+            pages: 
+              type: integer
+  400:
+    description: "Same response is for 202, 400"
