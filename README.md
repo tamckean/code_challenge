@@ -52,5 +52,13 @@ Solution is part of the Notebook for problem #2
     cryptography
 
 
+## Inventory 
+
+Source Code for database -> src/DatabaseScripts
+Source Code for Data Ingestion -> src/data_ingestion
+Source Code for API -> src/corteva (Python file main.py in env folder along with the yml files)
+
+Completed log file -> logs/corteva.log
+
 
 
