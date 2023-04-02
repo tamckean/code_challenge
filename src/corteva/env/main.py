@@ -59,8 +59,8 @@ weathers_schema = WeatherSchema(many=True)
 weatherstat_schema = WeatherStatSchema()
 weatherstats_schema = WeatherStatSchema(many=True)
 
-@app.route("/weather", methods=['GET'])
-@swag_from("/Users/tim.mckean/corteva/env/api_doc_weather.yml")
+@app.route("/api/weather", methods=['GET'])
+@swag_from(r"/Users/tim.mckean/corteva/env/api_doc_weather.yml")
 def weather():
     date = request.args.get('date')
     station  = request.args.get('station', type=str)
@@ -88,8 +88,8 @@ def weather():
     }
     return jsonify(results)
 
-@app.route("/weather/stats", methods=['GET'])
-@swag_from("/Users/tim.mckean/corteva/env/api_doc_weather_stat.yml")
+@app.route("/api/weather/stats", methods=['GET'])
+@swag_from(r"/Users/tim.mckean/corteva/env/api_doc_weather_stat.yml")
 def weatherstats():
     year = request.args.get('year')
     station  = request.args.get('station', type=str)
