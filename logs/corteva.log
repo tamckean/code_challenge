@@ -1,1034 +1,1034 @@
-02-Apr-23 18:48:22 - DEBUG - # _do_auth(): self._auth_plugin: 
-02-Apr-23 18:48:22 - INFO - package: mysql.connector.plugins
-02-Apr-23 18:48:22 - INFO - plugin_name: caching_sha2_password
-02-Apr-23 18:48:22 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
-02-Apr-23 18:48:22 - DEBUG - new_auth_plugin: caching_sha2_password
-02-Apr-23 18:49:05 - DEBUG - -------------------Data Ingestion Main start--------------------
-02-Apr-23 18:49:05 - DEBUG - # loadYieldFileToStage start
-02-Apr-23 18:49:05 - DEBUG - ##  loadYieldFileToDF start
-02-Apr-23 18:49:05 - DEBUG - ##  loadYieldFileToDF end
-02-Apr-23 18:49:05 - DEBUG - # loadYieldFileToStage data frame size:(30, 2)
-02-Apr-23 18:49:05 - DEBUG - # loadYieldFileToStage rows inserted to table:30
-02-Apr-23 18:49:05 - DEBUG - # loadYieldFileToStage end
-02-Apr-23 18:49:05 - DEBUG - # loadDimYearFromYield start
-02-Apr-23 18:49:05 - DEBUG - # loadDimYearFromYield rows: 30
-02-Apr-23 18:49:05 - DEBUG - # loadDimYearFromYield start
-02-Apr-23 18:49:05 - DEBUG - # loadFactYield start
-02-Apr-23 18:49:05 - DEBUG - # loadFactYield rows: 30
-02-Apr-23 18:49:05 - DEBUG - # loadFactYield end
-02-Apr-23 18:49:09 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:09 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:09 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:12 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:49:12 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:49:12 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:12 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:12 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:12 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:14 - DEBUG - # loadWeatherFileToStage data frame size:(9074, 4)
-02-Apr-23 18:49:14 - DEBUG - # loadWeatherFileToStage rows: 9074
-02-Apr-23 18:49:14 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:14 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:14 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:14 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:17 - DEBUG - # loadWeatherFileToStage data frame size:(10380, 4)
-02-Apr-23 18:49:17 - DEBUG - # loadWeatherFileToStage rows: 10380
-02-Apr-23 18:49:17 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:17 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:17 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:17 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:19 - DEBUG - # loadWeatherFileToStage data frame size:(10653, 4)
-02-Apr-23 18:49:19 - DEBUG - # loadWeatherFileToStage rows: 10653
-02-Apr-23 18:49:19 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:19 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:19 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:19 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:22 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:49:22 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:49:22 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:22 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:22 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:22 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:25 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:49:25 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:49:25 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:25 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:25 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:25 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:27 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:49:27 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:49:27 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:27 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:27 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:27 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:30 - DEBUG - # loadWeatherFileToStage data frame size:(10866, 4)
-02-Apr-23 18:49:30 - DEBUG - # loadWeatherFileToStage rows: 10866
-02-Apr-23 18:49:30 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:30 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:30 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:30 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:32 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:49:32 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:49:32 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:32 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:32 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:32 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:35 - DEBUG - # loadWeatherFileToStage data frame size:(10836, 4)
-02-Apr-23 18:49:35 - DEBUG - # loadWeatherFileToStage rows: 10836
-02-Apr-23 18:49:35 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:35 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:35 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:35 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:38 - DEBUG - # loadWeatherFileToStage data frame size:(9587, 4)
-02-Apr-23 18:49:38 - DEBUG - # loadWeatherFileToStage rows: 9587
-02-Apr-23 18:49:38 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:38 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:38 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:38 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:40 - DEBUG - # loadWeatherFileToStage data frame size:(10017, 4)
-02-Apr-23 18:49:40 - DEBUG - # loadWeatherFileToStage rows: 10017
-02-Apr-23 18:49:40 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:40 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:40 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:40 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:43 - DEBUG - # loadWeatherFileToStage data frame size:(10654, 4)
-02-Apr-23 18:49:43 - DEBUG - # loadWeatherFileToStage rows: 10654
-02-Apr-23 18:49:43 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:43 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:43 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:43 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:45 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:49:45 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:49:45 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:45 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:45 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:45 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:48 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:49:48 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:49:48 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:48 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:48 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:48 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:50 - DEBUG - # loadWeatherFileToStage data frame size:(10807, 4)
-02-Apr-23 18:49:50 - DEBUG - # loadWeatherFileToStage rows: 10807
-02-Apr-23 18:49:50 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:50 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:50 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:50 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:52 - DEBUG - # loadWeatherFileToStage data frame size:(6087, 4)
-02-Apr-23 18:49:52 - DEBUG - # loadWeatherFileToStage rows: 6087
-02-Apr-23 18:49:52 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:52 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:52 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:52 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:55 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:49:55 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:49:55 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:55 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:55 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:55 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:57 - DEBUG - # loadWeatherFileToStage data frame size:(8735, 4)
-02-Apr-23 18:49:57 - DEBUG - # loadWeatherFileToStage rows: 8735
-02-Apr-23 18:49:57 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:57 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:57 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:57 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:49:59 - DEBUG - # loadWeatherFileToStage data frame size:(8489, 4)
-02-Apr-23 18:49:59 - DEBUG - # loadWeatherFileToStage rows: 8489
-02-Apr-23 18:49:59 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:49:59 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:49:59 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:49:59 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:01 - DEBUG - # loadWeatherFileToStage data frame size:(10075, 4)
-02-Apr-23 18:50:01 - DEBUG - # loadWeatherFileToStage rows: 10075
-02-Apr-23 18:50:01 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:01 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:01 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:01 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:04 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:04 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:04 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:04 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:04 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:04 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:06 - DEBUG - # loadWeatherFileToStage data frame size:(9862, 4)
-02-Apr-23 18:50:06 - DEBUG - # loadWeatherFileToStage rows: 9862
-02-Apr-23 18:50:06 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:06 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:06 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:06 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:09 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:09 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:09 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:09 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:09 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:09 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:11 - DEBUG - # loadWeatherFileToStage data frame size:(10865, 4)
-02-Apr-23 18:50:11 - DEBUG - # loadWeatherFileToStage rows: 10865
-02-Apr-23 18:50:11 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:11 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:11 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:11 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:14 - DEBUG - # loadWeatherFileToStage data frame size:(10681, 4)
-02-Apr-23 18:50:14 - DEBUG - # loadWeatherFileToStage rows: 10681
-02-Apr-23 18:50:14 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:14 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:14 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:14 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:17 - DEBUG - # loadWeatherFileToStage data frame size:(10835, 4)
-02-Apr-23 18:50:17 - DEBUG - # loadWeatherFileToStage rows: 10835
-02-Apr-23 18:50:17 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:17 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:17 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:17 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:20 - DEBUG - # loadWeatherFileToStage data frame size:(10899, 4)
-02-Apr-23 18:50:20 - DEBUG - # loadWeatherFileToStage rows: 10899
-02-Apr-23 18:50:20 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:20 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:20 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:20 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:23 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:23 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:23 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:23 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:23 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:23 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:26 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:26 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:26 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:26 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:26 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:26 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:28 - DEBUG - # loadWeatherFileToStage data frame size:(5476, 4)
-02-Apr-23 18:50:28 - DEBUG - # loadWeatherFileToStage rows: 5476
-02-Apr-23 18:50:28 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:28 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:28 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:28 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:31 - DEBUG - # loadWeatherFileToStage data frame size:(10898, 4)
-02-Apr-23 18:50:31 - DEBUG - # loadWeatherFileToStage rows: 10898
-02-Apr-23 18:50:31 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:31 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:31 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:31 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:34 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:50:34 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:50:34 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:34 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:34 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:34 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:36 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:36 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:36 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:36 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:36 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:36 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:39 - DEBUG - # loadWeatherFileToStage data frame size:(10407, 4)
-02-Apr-23 18:50:39 - DEBUG - # loadWeatherFileToStage rows: 10407
-02-Apr-23 18:50:39 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:39 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:39 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:39 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:42 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:50:42 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:50:42 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:42 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:42 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:42 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:44 - DEBUG - # loadWeatherFileToStage data frame size:(10805, 4)
-02-Apr-23 18:50:44 - DEBUG - # loadWeatherFileToStage rows: 10805
-02-Apr-23 18:50:44 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:44 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:44 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:44 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:47 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:47 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:47 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:47 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:47 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:47 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:50 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:50:50 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:50:50 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:50 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:50 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:50 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:52 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:50:52 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:50:52 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:52 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:52 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:52 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:55 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:55 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:55 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:55 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:55 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:55 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:56 - DEBUG - # loadWeatherFileToStage data frame size:(6849, 4)
-02-Apr-23 18:50:56 - DEBUG - # loadWeatherFileToStage rows: 6849
-02-Apr-23 18:50:56 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:56 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:56 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:56 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:50:59 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:50:59 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:50:59 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:50:59 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:50:59 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:50:59 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:01 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:51:01 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:51:01 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:01 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:01 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:01 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:04 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:51:04 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:51:04 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:04 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:04 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:04 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:07 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:07 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:07 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:07 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:07 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:07 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:10 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:10 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:10 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:10 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:10 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:10 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:13 - DEBUG - # loadWeatherFileToStage data frame size:(10746, 4)
-02-Apr-23 18:51:13 - DEBUG - # loadWeatherFileToStage rows: 10746
-02-Apr-23 18:51:13 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:13 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:13 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:13 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:15 - DEBUG - # loadWeatherFileToStage data frame size:(10837, 4)
-02-Apr-23 18:51:15 - DEBUG - # loadWeatherFileToStage rows: 10837
-02-Apr-23 18:51:15 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:15 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:15 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:15 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:18 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:18 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:18 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:18 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:18 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:18 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:21 - DEBUG - # loadWeatherFileToStage data frame size:(9896, 4)
-02-Apr-23 18:51:21 - DEBUG - # loadWeatherFileToStage rows: 9896
-02-Apr-23 18:51:21 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:21 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:21 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:21 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:24 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:51:24 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:51:24 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:24 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:24 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:24 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:26 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:26 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:26 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:26 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:26 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:26 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:29 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:29 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:29 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:29 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:29 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:29 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:32 - DEBUG - # loadWeatherFileToStage data frame size:(10379, 4)
-02-Apr-23 18:51:32 - DEBUG - # loadWeatherFileToStage rows: 10379
-02-Apr-23 18:51:32 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:32 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:32 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:32 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:35 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:35 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:35 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:35 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:35 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:35 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:36 - DEBUG - # loadWeatherFileToStage data frame size:(6271, 4)
-02-Apr-23 18:51:36 - DEBUG - # loadWeatherFileToStage rows: 6271
-02-Apr-23 18:51:36 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:36 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:36 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:36 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:39 - DEBUG - # loadWeatherFileToStage data frame size:(10897, 4)
-02-Apr-23 18:51:39 - DEBUG - # loadWeatherFileToStage rows: 10897
-02-Apr-23 18:51:39 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:39 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:39 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:39 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:41 - DEBUG - # loadWeatherFileToStage data frame size:(10898, 4)
-02-Apr-23 18:51:41 - DEBUG - # loadWeatherFileToStage rows: 10898
-02-Apr-23 18:51:41 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:41 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:41 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:41 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:44 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:51:44 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:51:44 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:44 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:44 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:44 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:46 - DEBUG - # loadWeatherFileToStage data frame size:(10407, 4)
-02-Apr-23 18:51:46 - DEBUG - # loadWeatherFileToStage rows: 10407
-02-Apr-23 18:51:46 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:46 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:46 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:46 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:49 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:51:49 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:51:49 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:49 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:49 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:49 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:51 - DEBUG - # loadWeatherFileToStage data frame size:(10808, 4)
-02-Apr-23 18:51:51 - DEBUG - # loadWeatherFileToStage rows: 10808
-02-Apr-23 18:51:51 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:51 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:51 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:51 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:53 - DEBUG - # loadWeatherFileToStage data frame size:(9225, 4)
-02-Apr-23 18:51:53 - DEBUG - # loadWeatherFileToStage rows: 9225
-02-Apr-23 18:51:53 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:53 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:53 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:53 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:56 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:51:56 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:51:56 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:56 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:56 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:56 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:51:58 - DEBUG - # loadWeatherFileToStage data frame size:(8886, 4)
-02-Apr-23 18:51:58 - DEBUG - # loadWeatherFileToStage rows: 8886
-02-Apr-23 18:51:58 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:51:58 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:51:58 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:51:58 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:00 - DEBUG - # loadWeatherFileToStage data frame size:(9557, 4)
-02-Apr-23 18:52:00 - DEBUG - # loadWeatherFileToStage rows: 9557
-02-Apr-23 18:52:00 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:00 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:00 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:00 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:03 - DEBUG - # loadWeatherFileToStage data frame size:(10834, 4)
-02-Apr-23 18:52:03 - DEBUG - # loadWeatherFileToStage rows: 10834
-02-Apr-23 18:52:03 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:03 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:03 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:03 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:05 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:52:05 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:52:05 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:05 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:05 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:05 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:09 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:52:09 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:52:09 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:09 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:09 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:09 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:13 - DEBUG - # loadWeatherFileToStage data frame size:(10561, 4)
-02-Apr-23 18:52:13 - DEBUG - # loadWeatherFileToStage rows: 10561
-02-Apr-23 18:52:13 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:13 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:13 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:13 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:15 - DEBUG - # loadWeatherFileToStage data frame size:(8521, 4)
-02-Apr-23 18:52:15 - DEBUG - # loadWeatherFileToStage rows: 8521
-02-Apr-23 18:52:15 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:15 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:15 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:15 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:19 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:52:19 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:52:19 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:19 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:19 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:19 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:23 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:52:23 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:52:23 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:23 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:23 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:23 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:26 - DEBUG - # loadWeatherFileToStage data frame size:(10866, 4)
-02-Apr-23 18:52:26 - DEBUG - # loadWeatherFileToStage rows: 10866
-02-Apr-23 18:52:26 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:26 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:26 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:26 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:30 - DEBUG - # loadWeatherFileToStage data frame size:(10804, 4)
-02-Apr-23 18:52:30 - DEBUG - # loadWeatherFileToStage rows: 10804
-02-Apr-23 18:52:30 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:30 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:30 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:30 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:33 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:52:33 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:52:33 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:33 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:33 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:33 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:36 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:52:36 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:52:36 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:36 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:36 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:36 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:39 - DEBUG - # loadWeatherFileToStage data frame size:(10899, 4)
-02-Apr-23 18:52:39 - DEBUG - # loadWeatherFileToStage rows: 10899
-02-Apr-23 18:52:39 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:39 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:39 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:39 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:42 - DEBUG - # loadWeatherFileToStage data frame size:(9009, 4)
-02-Apr-23 18:52:42 - DEBUG - # loadWeatherFileToStage rows: 9009
-02-Apr-23 18:52:42 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:42 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:42 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:42 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:45 - DEBUG - # loadWeatherFileToStage data frame size:(10928, 4)
-02-Apr-23 18:52:45 - DEBUG - # loadWeatherFileToStage rows: 10928
-02-Apr-23 18:52:45 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:45 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:45 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:45 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:48 - DEBUG - # loadWeatherFileToStage data frame size:(10347, 4)
-02-Apr-23 18:52:48 - DEBUG - # loadWeatherFileToStage rows: 10347
-02-Apr-23 18:52:48 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:48 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:48 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:48 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:51 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:52:51 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:52:51 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:51 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:51 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:51 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:54 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:52:54 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:52:54 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:54 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:54 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:54 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:56 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:52:56 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:52:56 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:56 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:56 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:56 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:52:59 - DEBUG - # loadWeatherFileToStage data frame size:(10837, 4)
-02-Apr-23 18:52:59 - DEBUG - # loadWeatherFileToStage rows: 10837
-02-Apr-23 18:52:59 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:52:59 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:52:59 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:52:59 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:02 - DEBUG - # loadWeatherFileToStage data frame size:(10867, 4)
-02-Apr-23 18:53:02 - DEBUG - # loadWeatherFileToStage rows: 10867
-02-Apr-23 18:53:02 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:02 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:02 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:02 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:04 - DEBUG - # loadWeatherFileToStage data frame size:(10928, 4)
-02-Apr-23 18:53:04 - DEBUG - # loadWeatherFileToStage rows: 10928
-02-Apr-23 18:53:04 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:04 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:04 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:04 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:07 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:53:07 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:53:07 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:07 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:07 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:07 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:10 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:53:10 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:53:10 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:10 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:10 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:10 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:13 - DEBUG - # loadWeatherFileToStage data frame size:(10598, 4)
-02-Apr-23 18:53:13 - DEBUG - # loadWeatherFileToStage rows: 10598
-02-Apr-23 18:53:13 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:13 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:13 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:13 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:16 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:53:16 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:53:16 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:16 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:16 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:16 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:19 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:53:19 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:53:19 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:19 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:19 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:19 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:22 - DEBUG - # loadWeatherFileToStage data frame size:(10714, 4)
-02-Apr-23 18:53:22 - DEBUG - # loadWeatherFileToStage rows: 10714
-02-Apr-23 18:53:22 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:22 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:22 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:22 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:24 - DEBUG - # loadWeatherFileToStage data frame size:(5722, 4)
-02-Apr-23 18:53:24 - DEBUG - # loadWeatherFileToStage rows: 5722
-02-Apr-23 18:53:24 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:24 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:24 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:24 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:26 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:53:26 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:53:26 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:26 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:26 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:26 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:29 - DEBUG - # loadWeatherFileToStage data frame size:(10684, 4)
-02-Apr-23 18:53:29 - DEBUG - # loadWeatherFileToStage rows: 10684
-02-Apr-23 18:53:29 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:29 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:29 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:29 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:32 - DEBUG - # loadWeatherFileToStage data frame size:(10077, 4)
-02-Apr-23 18:53:32 - DEBUG - # loadWeatherFileToStage rows: 10077
-02-Apr-23 18:53:32 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:32 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:32 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:32 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:34 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:53:34 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:53:34 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:34 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:34 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:34 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:37 - DEBUG - # loadWeatherFileToStage data frame size:(10804, 4)
-02-Apr-23 18:53:37 - DEBUG - # loadWeatherFileToStage rows: 10804
-02-Apr-23 18:53:37 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:37 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:37 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:37 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:40 - DEBUG - # loadWeatherFileToStage data frame size:(10501, 4)
-02-Apr-23 18:53:40 - DEBUG - # loadWeatherFileToStage rows: 10501
-02-Apr-23 18:53:40 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:40 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:40 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:40 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:43 - DEBUG - # loadWeatherFileToStage data frame size:(10868, 4)
-02-Apr-23 18:53:43 - DEBUG - # loadWeatherFileToStage rows: 10868
-02-Apr-23 18:53:43 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:43 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:43 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:43 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:46 - DEBUG - # loadWeatherFileToStage data frame size:(10712, 4)
-02-Apr-23 18:53:46 - DEBUG - # loadWeatherFileToStage rows: 10712
-02-Apr-23 18:53:46 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:46 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:46 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:46 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:49 - DEBUG - # loadWeatherFileToStage data frame size:(9768, 4)
-02-Apr-23 18:53:49 - DEBUG - # loadWeatherFileToStage rows: 9768
-02-Apr-23 18:53:49 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:49 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:49 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:49 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:52 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:53:52 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:53:52 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:52 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:52 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:52 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:55 - DEBUG - # loadWeatherFileToStage data frame size:(10865, 4)
-02-Apr-23 18:53:55 - DEBUG - # loadWeatherFileToStage rows: 10865
-02-Apr-23 18:53:55 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:55 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:55 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:55 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:53:58 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:53:58 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:53:58 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:53:58 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:53:58 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:53:58 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:01 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:54:01 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:54:01 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:01 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:01 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:01 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:04 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:54:04 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:54:04 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:04 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:04 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:04 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:07 - DEBUG - # loadWeatherFileToStage data frame size:(10835, 4)
-02-Apr-23 18:54:07 - DEBUG - # loadWeatherFileToStage rows: 10835
-02-Apr-23 18:54:07 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:07 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:07 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:07 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:10 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:54:10 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:54:10 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:10 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:10 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:10 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:13 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:54:13 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:54:13 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:13 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:13 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:13 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:15 - DEBUG - # loadWeatherFileToStage data frame size:(9554, 4)
-02-Apr-23 18:54:15 - DEBUG - # loadWeatherFileToStage rows: 9554
-02-Apr-23 18:54:15 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:15 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:15 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:15 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:18 - DEBUG - # loadWeatherFileToStage data frame size:(10929, 4)
-02-Apr-23 18:54:18 - DEBUG - # loadWeatherFileToStage rows: 10929
-02-Apr-23 18:54:18 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:18 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:18 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:18 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:21 - DEBUG - # loadWeatherFileToStage data frame size:(10712, 4)
-02-Apr-23 18:54:21 - DEBUG - # loadWeatherFileToStage rows: 10712
-02-Apr-23 18:54:21 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:21 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:21 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:21 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:23 - DEBUG - # loadWeatherFileToStage data frame size:(10742, 4)
-02-Apr-23 18:54:23 - DEBUG - # loadWeatherFileToStage rows: 10742
-02-Apr-23 18:54:23 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:23 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:23 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:23 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:26 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:54:26 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:54:26 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:26 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:26 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:26 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:28 - DEBUG - # loadWeatherFileToStage data frame size:(8467, 4)
-02-Apr-23 18:54:28 - DEBUG - # loadWeatherFileToStage rows: 8467
-02-Apr-23 18:54:28 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:28 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:28 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:28 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:31 - DEBUG - # loadWeatherFileToStage data frame size:(10744, 4)
-02-Apr-23 18:54:31 - DEBUG - # loadWeatherFileToStage rows: 10744
-02-Apr-23 18:54:31 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:31 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:31 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:31 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:34 - DEBUG - # loadWeatherFileToStage data frame size:(10865, 4)
-02-Apr-23 18:54:34 - DEBUG - # loadWeatherFileToStage rows: 10865
-02-Apr-23 18:54:34 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:34 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:34 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:34 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:37 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:54:37 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:54:37 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:37 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:37 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:37 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:39 - DEBUG - # loadWeatherFileToStage data frame size:(10833, 4)
-02-Apr-23 18:54:39 - DEBUG - # loadWeatherFileToStage rows: 10833
-02-Apr-23 18:54:39 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:39 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:39 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:39 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:42 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:54:42 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:54:42 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:42 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:42 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:42 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:45 - DEBUG - # loadWeatherFileToStage data frame size:(10869, 4)
-02-Apr-23 18:54:45 - DEBUG - # loadWeatherFileToStage rows: 10869
-02-Apr-23 18:54:45 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:45 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:45 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:45 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:48 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:54:48 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:54:48 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:48 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:48 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:48 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:50 - DEBUG - # loadWeatherFileToStage data frame size:(10683, 4)
-02-Apr-23 18:54:50 - DEBUG - # loadWeatherFileToStage rows: 10683
-02-Apr-23 18:54:50 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:50 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:50 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:50 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:53 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:54:53 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:54:53 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:53 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:53 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:53 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:55 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
-02-Apr-23 18:54:55 - DEBUG - # loadWeatherFileToStage rows: 10927
-02-Apr-23 18:54:55 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:55 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:55 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:55 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:54:58 - DEBUG - # loadWeatherFileToStage data frame size:(10562, 4)
-02-Apr-23 18:54:58 - DEBUG - # loadWeatherFileToStage rows: 10562
-02-Apr-23 18:54:58 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:54:58 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:54:58 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:54:58 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:00 - DEBUG - # loadWeatherFileToStage data frame size:(9556, 4)
-02-Apr-23 18:55:00 - DEBUG - # loadWeatherFileToStage rows: 9556
-02-Apr-23 18:55:00 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:00 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:00 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:00 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:03 - DEBUG - # loadWeatherFileToStage data frame size:(10803, 4)
-02-Apr-23 18:55:03 - DEBUG - # loadWeatherFileToStage rows: 10803
-02-Apr-23 18:55:03 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:03 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:03 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:03 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:05 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:55:05 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:55:05 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:05 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:05 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:05 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:07 - DEBUG - # loadWeatherFileToStage data frame size:(8219, 4)
-02-Apr-23 18:55:07 - DEBUG - # loadWeatherFileToStage rows: 8219
-02-Apr-23 18:55:07 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:07 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:07 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:07 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:10 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:55:10 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:55:10 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:10 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:10 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:10 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:13 - DEBUG - # loadWeatherFileToStage data frame size:(9343, 4)
-02-Apr-23 18:55:13 - DEBUG - # loadWeatherFileToStage rows: 9343
-02-Apr-23 18:55:13 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:13 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:13 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:13 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:15 - DEBUG - # loadWeatherFileToStage data frame size:(5811, 4)
-02-Apr-23 18:55:15 - DEBUG - # loadWeatherFileToStage rows: 5811
-02-Apr-23 18:55:15 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:15 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:15 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:15 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:17 - DEBUG - # loadWeatherFileToStage data frame size:(10468, 4)
-02-Apr-23 18:55:17 - DEBUG - # loadWeatherFileToStage rows: 10468
-02-Apr-23 18:55:17 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:17 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:17 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:17 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:19 - DEBUG - # loadWeatherFileToStage data frame size:(8918, 4)
-02-Apr-23 18:55:19 - DEBUG - # loadWeatherFileToStage rows: 8918
-02-Apr-23 18:55:19 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:19 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:19 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:19 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:22 - DEBUG - # loadWeatherFileToStage data frame size:(9771, 4)
-02-Apr-23 18:55:22 - DEBUG - # loadWeatherFileToStage rows: 9771
-02-Apr-23 18:55:22 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:22 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:22 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:22 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage data frame size:(8126, 4)
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage rows: 8126
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:24 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:24 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage data frame size:(2069, 4)
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage rows: 2069
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:24 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:24 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:24 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:27 - DEBUG - # loadWeatherFileToStage data frame size:(10806, 4)
-02-Apr-23 18:55:27 - DEBUG - # loadWeatherFileToStage rows: 10806
-02-Apr-23 18:55:27 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:27 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:27 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:27 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:29 - DEBUG - # loadWeatherFileToStage data frame size:(10469, 4)
-02-Apr-23 18:55:29 - DEBUG - # loadWeatherFileToStage rows: 10469
-02-Apr-23 18:55:29 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:29 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:29 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:29 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:32 - DEBUG - # loadWeatherFileToStage data frame size:(10745, 4)
-02-Apr-23 18:55:32 - DEBUG - # loadWeatherFileToStage rows: 10745
-02-Apr-23 18:55:32 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:32 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:32 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:32 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:34 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:55:34 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:55:34 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:34 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:34 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:34 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:37 - DEBUG - # loadWeatherFileToStage data frame size:(10836, 4)
-02-Apr-23 18:55:37 - DEBUG - # loadWeatherFileToStage rows: 10836
-02-Apr-23 18:55:37 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:37 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:37 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:37 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:39 - DEBUG - # loadWeatherFileToStage data frame size:(10713, 4)
-02-Apr-23 18:55:39 - DEBUG - # loadWeatherFileToStage rows: 10713
-02-Apr-23 18:55:39 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:39 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:39 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:39 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:42 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
-02-Apr-23 18:55:42 - DEBUG - # loadWeatherFileToStage rows: 10896
-02-Apr-23 18:55:42 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:42 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:42 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:42 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:44 - DEBUG - # loadWeatherFileToStage data frame size:(10652, 4)
-02-Apr-23 18:55:44 - DEBUG - # loadWeatherFileToStage rows: 10652
-02-Apr-23 18:55:44 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:44 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:44 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:44 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:47 - DEBUG - # loadWeatherFileToStage data frame size:(10836, 4)
-02-Apr-23 18:55:47 - DEBUG - # loadWeatherFileToStage rows: 10836
-02-Apr-23 18:55:47 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:47 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:47 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:47 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:50 - DEBUG - # loadWeatherFileToStage data frame size:(10866, 4)
-02-Apr-23 18:55:50 - DEBUG - # loadWeatherFileToStage rows: 10866
-02-Apr-23 18:55:50 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:50 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:50 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:50 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:52 - DEBUG - # loadWeatherFileToStage data frame size:(9681, 4)
-02-Apr-23 18:55:52 - DEBUG - # loadWeatherFileToStage rows: 9681
-02-Apr-23 18:55:52 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:52 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:52 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:52 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:54 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:55:54 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:55:54 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:54 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:54 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:54 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:57 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:55:57 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:55:57 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:57 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:57 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:57 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:55:59 - DEBUG - # loadWeatherFileToStage data frame size:(7609, 4)
-02-Apr-23 18:55:59 - DEBUG - # loadWeatherFileToStage rows: 7609
-02-Apr-23 18:55:59 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:55:59 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:55:59 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:55:59 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:01 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:56:01 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:56:01 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:01 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:01 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:01 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:04 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
-02-Apr-23 18:56:04 - DEBUG - # loadWeatherFileToStage rows: 10926
-02-Apr-23 18:56:04 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:04 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:04 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:04 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:06 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:56:06 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:56:06 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:06 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:06 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:06 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:09 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:56:09 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:56:09 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:09 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:09 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:09 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:11 - DEBUG - # loadWeatherFileToStage data frame size:(10135, 4)
-02-Apr-23 18:56:11 - DEBUG - # loadWeatherFileToStage rows: 10135
-02-Apr-23 18:56:11 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:11 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:11 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:11 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:14 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:56:14 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:56:14 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:14 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:14 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:14 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:16 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
-02-Apr-23 18:56:16 - DEBUG - # loadWeatherFileToStage rows: 10957
-02-Apr-23 18:56:16 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:16 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:16 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:16 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:19 - DEBUG - # loadWeatherFileToStage data frame size:(10652, 4)
-02-Apr-23 18:56:19 - DEBUG - # loadWeatherFileToStage rows: 10652
-02-Apr-23 18:56:19 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:19 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:19 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:19 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:21 - DEBUG - # loadWeatherFileToStage data frame size:(10804, 4)
-02-Apr-23 18:56:21 - DEBUG - # loadWeatherFileToStage rows: 10804
-02-Apr-23 18:56:21 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:21 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:21 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:21 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:24 - DEBUG - # loadWeatherFileToStage data frame size:(10772, 4)
-02-Apr-23 18:56:24 - DEBUG - # loadWeatherFileToStage rows: 10772
-02-Apr-23 18:56:24 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:24 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:24 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:24 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:26 - DEBUG - # loadWeatherFileToStage data frame size:(9861, 4)
-02-Apr-23 18:56:26 - DEBUG - # loadWeatherFileToStage rows: 9861
-02-Apr-23 18:56:26 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:26 - DEBUG - # loadWeatherFileToStage start
-02-Apr-23 18:56:26 - DEBUG - ##  loadWeatherFileToDF start
-02-Apr-23 18:56:26 - DEBUG - ##  loadWeatherFileToDF end
-02-Apr-23 18:56:28 - DEBUG - # loadWeatherFileToStage data frame size:(9374, 4)
-02-Apr-23 18:56:28 - DEBUG - # loadWeatherFileToStage rows: 9374
-02-Apr-23 18:56:28 - DEBUG - # loadWeatherFileToStage end
-02-Apr-23 18:56:28 - DEBUG - # loadDimDateFromWeather start
-02-Apr-23 18:56:30 - DEBUG - # loadDimDateFromWeather rows:10957
-02-Apr-23 18:56:30 - DEBUG - # loadDimDateFromWeather end
-02-Apr-23 18:56:30 - DEBUG - # loadDimWeatherStation start
-02-Apr-23 18:56:32 - DEBUG - # loadDimWeatherStation rows: 167
-02-Apr-23 18:56:32 - DEBUG - # loadDimWeatherStation end
-02-Apr-23 18:56:32 - DEBUG - # loadFactWeather start
-02-Apr-23 18:56:45 - DEBUG - # loadFactWeather rows: 1729957
-02-Apr-23 18:56:45 - DEBUG - # loadFactWeather end
-02-Apr-23 18:56:45 - DEBUG - --------------------Data Ingestion Main end------------------------
-02-Apr-23 19:32:57 - DEBUG - # CleanupStage start
-02-Apr-23 19:32:57 - DEBUG - # CleanupStage rows: 30
-02-Apr-23 19:33:53 - DEBUG - # CleanupStage rows: 1729957
-02-Apr-23 19:33:53 - DEBUG - # CleanupStage end
+03-Apr-23 06:41:46 - DEBUG - # _do_auth(): self._auth_plugin: 
+03-Apr-23 06:41:46 - INFO - package: mysql.connector.plugins
+03-Apr-23 06:41:46 - INFO - plugin_name: caching_sha2_password
+03-Apr-23 06:41:46 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+03-Apr-23 06:41:46 - DEBUG - new_auth_plugin: caching_sha2_password
+03-Apr-23 06:41:46 - DEBUG - -------------------Data Ingestion Main start--------------------
+03-Apr-23 06:41:46 - DEBUG - # loadYieldFileToStage start
+03-Apr-23 06:41:46 - DEBUG - ##  loadYieldFileToDF start
+03-Apr-23 06:41:46 - DEBUG - ##  loadYieldFileToDF end
+03-Apr-23 06:41:46 - DEBUG - # loadYieldFileToStage data frame size:(30, 2)
+03-Apr-23 06:41:46 - DEBUG - # loadYieldFileToStage rows inserted to table:30
+03-Apr-23 06:41:46 - DEBUG - # loadYieldFileToStage end
+03-Apr-23 06:41:46 - DEBUG - # loadDimYearFromYield start
+03-Apr-23 06:41:46 - DEBUG - # loadDimYearFromYield rows: 30
+03-Apr-23 06:41:46 - DEBUG - # loadDimYearFromYield start
+03-Apr-23 06:41:46 - DEBUG - # loadFactYield start
+03-Apr-23 06:41:46 - DEBUG - # loadFactYield rows: 30
+03-Apr-23 06:41:46 - DEBUG - # loadFactYield end
+03-Apr-23 06:41:46 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:41:46 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:41:46 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:41:48 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:41:48 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:41:48 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:41:48 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:41:48 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:41:48 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:41:51 - DEBUG - # loadWeatherFileToStage data frame size:(9074, 4)
+03-Apr-23 06:41:51 - DEBUG - # loadWeatherFileToStage rows: 9074
+03-Apr-23 06:41:51 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:41:51 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:41:51 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:41:51 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:41:53 - DEBUG - # loadWeatherFileToStage data frame size:(10380, 4)
+03-Apr-23 06:41:53 - DEBUG - # loadWeatherFileToStage rows: 10380
+03-Apr-23 06:41:53 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:41:53 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:41:53 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:41:53 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:41:56 - DEBUG - # loadWeatherFileToStage data frame size:(10653, 4)
+03-Apr-23 06:41:56 - DEBUG - # loadWeatherFileToStage rows: 10653
+03-Apr-23 06:41:56 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:41:56 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:41:56 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:41:56 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:41:58 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:41:58 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:41:58 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:41:58 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:41:58 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:41:58 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:01 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:42:01 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:42:01 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:01 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:01 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:01 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:04 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:04 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:04 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:04 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:04 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:04 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:06 - DEBUG - # loadWeatherFileToStage data frame size:(10866, 4)
+03-Apr-23 06:42:06 - DEBUG - # loadWeatherFileToStage rows: 10866
+03-Apr-23 06:42:06 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:06 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:06 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:06 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:09 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:09 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:09 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:09 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:09 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:09 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:11 - DEBUG - # loadWeatherFileToStage data frame size:(10836, 4)
+03-Apr-23 06:42:11 - DEBUG - # loadWeatherFileToStage rows: 10836
+03-Apr-23 06:42:11 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:11 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:11 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:11 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:14 - DEBUG - # loadWeatherFileToStage data frame size:(9587, 4)
+03-Apr-23 06:42:14 - DEBUG - # loadWeatherFileToStage rows: 9587
+03-Apr-23 06:42:14 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:14 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:14 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:14 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:16 - DEBUG - # loadWeatherFileToStage data frame size:(10017, 4)
+03-Apr-23 06:42:16 - DEBUG - # loadWeatherFileToStage rows: 10017
+03-Apr-23 06:42:16 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:16 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:16 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:16 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:19 - DEBUG - # loadWeatherFileToStage data frame size:(10654, 4)
+03-Apr-23 06:42:19 - DEBUG - # loadWeatherFileToStage rows: 10654
+03-Apr-23 06:42:19 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:19 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:19 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:19 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:21 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:21 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:21 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:21 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:21 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:21 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:24 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:42:24 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:42:24 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:24 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:24 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:24 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:26 - DEBUG - # loadWeatherFileToStage data frame size:(10807, 4)
+03-Apr-23 06:42:26 - DEBUG - # loadWeatherFileToStage rows: 10807
+03-Apr-23 06:42:26 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:26 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:26 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:26 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:28 - DEBUG - # loadWeatherFileToStage data frame size:(6087, 4)
+03-Apr-23 06:42:28 - DEBUG - # loadWeatherFileToStage rows: 6087
+03-Apr-23 06:42:28 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:28 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:28 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:28 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:30 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:42:30 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:42:30 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:30 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:30 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:30 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:33 - DEBUG - # loadWeatherFileToStage data frame size:(8735, 4)
+03-Apr-23 06:42:33 - DEBUG - # loadWeatherFileToStage rows: 8735
+03-Apr-23 06:42:33 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:33 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:33 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:33 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:35 - DEBUG - # loadWeatherFileToStage data frame size:(8489, 4)
+03-Apr-23 06:42:35 - DEBUG - # loadWeatherFileToStage rows: 8489
+03-Apr-23 06:42:35 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:35 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:35 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:35 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:37 - DEBUG - # loadWeatherFileToStage data frame size:(10075, 4)
+03-Apr-23 06:42:37 - DEBUG - # loadWeatherFileToStage rows: 10075
+03-Apr-23 06:42:37 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:37 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:37 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:37 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:40 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:40 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:40 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:40 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:40 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:40 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:42 - DEBUG - # loadWeatherFileToStage data frame size:(9862, 4)
+03-Apr-23 06:42:42 - DEBUG - # loadWeatherFileToStage rows: 9862
+03-Apr-23 06:42:42 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:42 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:42 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:42 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:45 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:45 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:45 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:45 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:45 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:45 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:47 - DEBUG - # loadWeatherFileToStage data frame size:(10865, 4)
+03-Apr-23 06:42:47 - DEBUG - # loadWeatherFileToStage rows: 10865
+03-Apr-23 06:42:47 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:47 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:47 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:47 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:50 - DEBUG - # loadWeatherFileToStage data frame size:(10681, 4)
+03-Apr-23 06:42:50 - DEBUG - # loadWeatherFileToStage rows: 10681
+03-Apr-23 06:42:50 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:50 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:50 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:50 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:52 - DEBUG - # loadWeatherFileToStage data frame size:(10835, 4)
+03-Apr-23 06:42:52 - DEBUG - # loadWeatherFileToStage rows: 10835
+03-Apr-23 06:42:52 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:52 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:52 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:52 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:54 - DEBUG - # loadWeatherFileToStage data frame size:(10899, 4)
+03-Apr-23 06:42:54 - DEBUG - # loadWeatherFileToStage rows: 10899
+03-Apr-23 06:42:54 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:54 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:54 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:54 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:57 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:57 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:57 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:57 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:57 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:57 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:42:59 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:42:59 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:42:59 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:42:59 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:42:59 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:42:59 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:01 - DEBUG - # loadWeatherFileToStage data frame size:(5476, 4)
+03-Apr-23 06:43:01 - DEBUG - # loadWeatherFileToStage rows: 5476
+03-Apr-23 06:43:01 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:01 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:01 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:01 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:04 - DEBUG - # loadWeatherFileToStage data frame size:(10898, 4)
+03-Apr-23 06:43:04 - DEBUG - # loadWeatherFileToStage rows: 10898
+03-Apr-23 06:43:04 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:04 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:04 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:04 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:07 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:43:07 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:43:07 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:07 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:07 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:07 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:09 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:09 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:09 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:09 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:09 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:09 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:11 - DEBUG - # loadWeatherFileToStage data frame size:(10407, 4)
+03-Apr-23 06:43:11 - DEBUG - # loadWeatherFileToStage rows: 10407
+03-Apr-23 06:43:11 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:11 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:11 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:11 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:14 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:43:14 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:43:14 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:14 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:14 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:14 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:16 - DEBUG - # loadWeatherFileToStage data frame size:(10805, 4)
+03-Apr-23 06:43:16 - DEBUG - # loadWeatherFileToStage rows: 10805
+03-Apr-23 06:43:16 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:16 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:16 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:16 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:19 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:19 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:19 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:19 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:19 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:19 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:21 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:43:21 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:43:21 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:21 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:21 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:21 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:24 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:43:24 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:43:24 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:24 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:24 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:24 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:26 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:26 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:26 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:26 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:26 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:26 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:28 - DEBUG - # loadWeatherFileToStage data frame size:(6849, 4)
+03-Apr-23 06:43:28 - DEBUG - # loadWeatherFileToStage rows: 6849
+03-Apr-23 06:43:28 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:28 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:28 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:28 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:30 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:30 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:30 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:30 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:30 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:30 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:33 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:43:33 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:43:33 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:33 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:33 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:33 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:35 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:43:35 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:43:35 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:35 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:35 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:35 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:38 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:38 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:38 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:38 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:38 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:38 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:41 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:41 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:41 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:41 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:41 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:41 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:43 - DEBUG - # loadWeatherFileToStage data frame size:(10746, 4)
+03-Apr-23 06:43:43 - DEBUG - # loadWeatherFileToStage rows: 10746
+03-Apr-23 06:43:43 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:43 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:43 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:43 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:46 - DEBUG - # loadWeatherFileToStage data frame size:(10837, 4)
+03-Apr-23 06:43:46 - DEBUG - # loadWeatherFileToStage rows: 10837
+03-Apr-23 06:43:46 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:46 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:46 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:46 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:48 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:48 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:48 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:48 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:48 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:48 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:50 - DEBUG - # loadWeatherFileToStage data frame size:(9896, 4)
+03-Apr-23 06:43:50 - DEBUG - # loadWeatherFileToStage rows: 9896
+03-Apr-23 06:43:50 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:50 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:50 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:50 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:53 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:43:53 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:43:53 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:53 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:53 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:53 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:55 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:55 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:55 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:55 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:55 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:55 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:43:58 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:43:58 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:43:58 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:43:58 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:43:58 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:43:58 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:00 - DEBUG - # loadWeatherFileToStage data frame size:(10379, 4)
+03-Apr-23 06:44:00 - DEBUG - # loadWeatherFileToStage rows: 10379
+03-Apr-23 06:44:00 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:00 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:00 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:00 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:03 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:44:03 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:44:03 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:03 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:03 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:03 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:04 - DEBUG - # loadWeatherFileToStage data frame size:(6271, 4)
+03-Apr-23 06:44:04 - DEBUG - # loadWeatherFileToStage rows: 6271
+03-Apr-23 06:44:04 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:04 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:04 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:04 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:07 - DEBUG - # loadWeatherFileToStage data frame size:(10897, 4)
+03-Apr-23 06:44:07 - DEBUG - # loadWeatherFileToStage rows: 10897
+03-Apr-23 06:44:07 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:07 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:07 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:07 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:10 - DEBUG - # loadWeatherFileToStage data frame size:(10898, 4)
+03-Apr-23 06:44:10 - DEBUG - # loadWeatherFileToStage rows: 10898
+03-Apr-23 06:44:10 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:10 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:10 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:10 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:12 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:44:12 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:44:12 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:12 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:12 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:12 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:15 - DEBUG - # loadWeatherFileToStage data frame size:(10407, 4)
+03-Apr-23 06:44:15 - DEBUG - # loadWeatherFileToStage rows: 10407
+03-Apr-23 06:44:15 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:15 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:15 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:15 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:17 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:44:17 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:44:17 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:17 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:17 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:17 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:20 - DEBUG - # loadWeatherFileToStage data frame size:(10808, 4)
+03-Apr-23 06:44:20 - DEBUG - # loadWeatherFileToStage rows: 10808
+03-Apr-23 06:44:20 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:20 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:20 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:20 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:22 - DEBUG - # loadWeatherFileToStage data frame size:(9225, 4)
+03-Apr-23 06:44:22 - DEBUG - # loadWeatherFileToStage rows: 9225
+03-Apr-23 06:44:22 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:22 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:22 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:22 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:24 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:44:24 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:44:24 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:24 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:24 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:24 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:27 - DEBUG - # loadWeatherFileToStage data frame size:(8886, 4)
+03-Apr-23 06:44:27 - DEBUG - # loadWeatherFileToStage rows: 8886
+03-Apr-23 06:44:27 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:27 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:27 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:27 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:29 - DEBUG - # loadWeatherFileToStage data frame size:(9557, 4)
+03-Apr-23 06:44:29 - DEBUG - # loadWeatherFileToStage rows: 9557
+03-Apr-23 06:44:29 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:29 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:29 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:29 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:31 - DEBUG - # loadWeatherFileToStage data frame size:(10834, 4)
+03-Apr-23 06:44:31 - DEBUG - # loadWeatherFileToStage rows: 10834
+03-Apr-23 06:44:31 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:31 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:31 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:31 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:34 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:44:34 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:44:34 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:34 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:34 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:34 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:36 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:44:36 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:44:36 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:36 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:36 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:36 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:39 - DEBUG - # loadWeatherFileToStage data frame size:(10561, 4)
+03-Apr-23 06:44:39 - DEBUG - # loadWeatherFileToStage rows: 10561
+03-Apr-23 06:44:39 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:39 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:39 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:39 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:41 - DEBUG - # loadWeatherFileToStage data frame size:(8521, 4)
+03-Apr-23 06:44:41 - DEBUG - # loadWeatherFileToStage rows: 8521
+03-Apr-23 06:44:41 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:41 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:41 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:41 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:43 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:44:43 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:44:43 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:43 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:43 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:43 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:45 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:44:45 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:44:45 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:45 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:45 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:45 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:48 - DEBUG - # loadWeatherFileToStage data frame size:(10866, 4)
+03-Apr-23 06:44:48 - DEBUG - # loadWeatherFileToStage rows: 10866
+03-Apr-23 06:44:48 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:48 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:48 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:48 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:50 - DEBUG - # loadWeatherFileToStage data frame size:(10804, 4)
+03-Apr-23 06:44:50 - DEBUG - # loadWeatherFileToStage rows: 10804
+03-Apr-23 06:44:50 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:50 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:50 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:50 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:53 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:44:53 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:44:53 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:53 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:53 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:53 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:55 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:44:55 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:44:55 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:55 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:55 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:55 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:44:58 - DEBUG - # loadWeatherFileToStage data frame size:(10899, 4)
+03-Apr-23 06:44:58 - DEBUG - # loadWeatherFileToStage rows: 10899
+03-Apr-23 06:44:58 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:44:58 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:44:58 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:44:58 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:00 - DEBUG - # loadWeatherFileToStage data frame size:(9009, 4)
+03-Apr-23 06:45:00 - DEBUG - # loadWeatherFileToStage rows: 9009
+03-Apr-23 06:45:00 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:00 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:00 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:00 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:02 - DEBUG - # loadWeatherFileToStage data frame size:(10928, 4)
+03-Apr-23 06:45:02 - DEBUG - # loadWeatherFileToStage rows: 10928
+03-Apr-23 06:45:02 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:02 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:02 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:02 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:05 - DEBUG - # loadWeatherFileToStage data frame size:(10347, 4)
+03-Apr-23 06:45:05 - DEBUG - # loadWeatherFileToStage rows: 10347
+03-Apr-23 06:45:05 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:05 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:05 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:05 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:07 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:45:07 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:45:07 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:07 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:07 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:07 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:10 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:45:10 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:45:10 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:10 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:10 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:10 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:12 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:45:12 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:45:12 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:12 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:12 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:12 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:15 - DEBUG - # loadWeatherFileToStage data frame size:(10837, 4)
+03-Apr-23 06:45:15 - DEBUG - # loadWeatherFileToStage rows: 10837
+03-Apr-23 06:45:15 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:15 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:15 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:15 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:17 - DEBUG - # loadWeatherFileToStage data frame size:(10867, 4)
+03-Apr-23 06:45:17 - DEBUG - # loadWeatherFileToStage rows: 10867
+03-Apr-23 06:45:17 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:17 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:17 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:17 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:20 - DEBUG - # loadWeatherFileToStage data frame size:(10928, 4)
+03-Apr-23 06:45:20 - DEBUG - # loadWeatherFileToStage rows: 10928
+03-Apr-23 06:45:20 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:20 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:20 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:20 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:22 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:45:22 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:45:22 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:22 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:22 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:22 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:25 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:45:25 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:45:25 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:25 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:25 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:25 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:27 - DEBUG - # loadWeatherFileToStage data frame size:(10598, 4)
+03-Apr-23 06:45:27 - DEBUG - # loadWeatherFileToStage rows: 10598
+03-Apr-23 06:45:27 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:27 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:27 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:27 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:30 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:45:30 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:45:30 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:30 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:30 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:30 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:32 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:45:32 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:45:32 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:32 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:32 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:32 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:35 - DEBUG - # loadWeatherFileToStage data frame size:(10714, 4)
+03-Apr-23 06:45:35 - DEBUG - # loadWeatherFileToStage rows: 10714
+03-Apr-23 06:45:35 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:35 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:35 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:35 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:36 - DEBUG - # loadWeatherFileToStage data frame size:(5722, 4)
+03-Apr-23 06:45:36 - DEBUG - # loadWeatherFileToStage rows: 5722
+03-Apr-23 06:45:36 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:36 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:36 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:36 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:39 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:45:39 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:45:39 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:39 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:39 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:39 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:42 - DEBUG - # loadWeatherFileToStage data frame size:(10684, 4)
+03-Apr-23 06:45:42 - DEBUG - # loadWeatherFileToStage rows: 10684
+03-Apr-23 06:45:42 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:42 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:42 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:42 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:44 - DEBUG - # loadWeatherFileToStage data frame size:(10077, 4)
+03-Apr-23 06:45:44 - DEBUG - # loadWeatherFileToStage rows: 10077
+03-Apr-23 06:45:44 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:44 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:44 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:44 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:46 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:45:46 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:45:46 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:46 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:46 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:46 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:49 - DEBUG - # loadWeatherFileToStage data frame size:(10804, 4)
+03-Apr-23 06:45:49 - DEBUG - # loadWeatherFileToStage rows: 10804
+03-Apr-23 06:45:49 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:49 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:49 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:49 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:51 - DEBUG - # loadWeatherFileToStage data frame size:(10501, 4)
+03-Apr-23 06:45:51 - DEBUG - # loadWeatherFileToStage rows: 10501
+03-Apr-23 06:45:51 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:51 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:51 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:51 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:54 - DEBUG - # loadWeatherFileToStage data frame size:(10868, 4)
+03-Apr-23 06:45:54 - DEBUG - # loadWeatherFileToStage rows: 10868
+03-Apr-23 06:45:54 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:54 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:54 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:54 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:56 - DEBUG - # loadWeatherFileToStage data frame size:(10712, 4)
+03-Apr-23 06:45:56 - DEBUG - # loadWeatherFileToStage rows: 10712
+03-Apr-23 06:45:56 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:56 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:56 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:56 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:45:59 - DEBUG - # loadWeatherFileToStage data frame size:(9768, 4)
+03-Apr-23 06:45:59 - DEBUG - # loadWeatherFileToStage rows: 9768
+03-Apr-23 06:45:59 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:45:59 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:45:59 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:45:59 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:01 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:46:01 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:46:01 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:01 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:01 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:01 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:04 - DEBUG - # loadWeatherFileToStage data frame size:(10865, 4)
+03-Apr-23 06:46:04 - DEBUG - # loadWeatherFileToStage rows: 10865
+03-Apr-23 06:46:04 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:04 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:04 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:04 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:06 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:46:06 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:46:06 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:06 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:06 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:06 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:09 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:46:09 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:46:09 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:09 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:09 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:09 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:11 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:46:11 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:46:11 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:11 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:11 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:11 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:14 - DEBUG - # loadWeatherFileToStage data frame size:(10835, 4)
+03-Apr-23 06:46:14 - DEBUG - # loadWeatherFileToStage rows: 10835
+03-Apr-23 06:46:14 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:14 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:14 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:14 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:16 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:46:16 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:46:16 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:16 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:16 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:16 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:19 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:46:19 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:46:19 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:19 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:19 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:19 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:21 - DEBUG - # loadWeatherFileToStage data frame size:(9554, 4)
+03-Apr-23 06:46:21 - DEBUG - # loadWeatherFileToStage rows: 9554
+03-Apr-23 06:46:21 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:21 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:21 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:21 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:23 - DEBUG - # loadWeatherFileToStage data frame size:(10929, 4)
+03-Apr-23 06:46:23 - DEBUG - # loadWeatherFileToStage rows: 10929
+03-Apr-23 06:46:23 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:23 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:23 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:23 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:26 - DEBUG - # loadWeatherFileToStage data frame size:(10712, 4)
+03-Apr-23 06:46:26 - DEBUG - # loadWeatherFileToStage rows: 10712
+03-Apr-23 06:46:26 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:26 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:26 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:26 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:28 - DEBUG - # loadWeatherFileToStage data frame size:(10742, 4)
+03-Apr-23 06:46:28 - DEBUG - # loadWeatherFileToStage rows: 10742
+03-Apr-23 06:46:28 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:28 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:28 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:28 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:31 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:46:31 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:46:31 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:31 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:31 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:31 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:33 - DEBUG - # loadWeatherFileToStage data frame size:(8467, 4)
+03-Apr-23 06:46:33 - DEBUG - # loadWeatherFileToStage rows: 8467
+03-Apr-23 06:46:33 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:33 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:33 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:33 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:35 - DEBUG - # loadWeatherFileToStage data frame size:(10744, 4)
+03-Apr-23 06:46:35 - DEBUG - # loadWeatherFileToStage rows: 10744
+03-Apr-23 06:46:35 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:35 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:35 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:35 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:38 - DEBUG - # loadWeatherFileToStage data frame size:(10865, 4)
+03-Apr-23 06:46:38 - DEBUG - # loadWeatherFileToStage rows: 10865
+03-Apr-23 06:46:38 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:38 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:38 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:38 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:40 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:46:40 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:46:40 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:40 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:40 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:40 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:43 - DEBUG - # loadWeatherFileToStage data frame size:(10833, 4)
+03-Apr-23 06:46:43 - DEBUG - # loadWeatherFileToStage rows: 10833
+03-Apr-23 06:46:43 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:43 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:43 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:43 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:45 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:46:45 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:46:45 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:45 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:45 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:45 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:48 - DEBUG - # loadWeatherFileToStage data frame size:(10869, 4)
+03-Apr-23 06:46:48 - DEBUG - # loadWeatherFileToStage rows: 10869
+03-Apr-23 06:46:48 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:48 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:48 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:48 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:50 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:46:50 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:46:50 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:50 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:50 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:50 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:52 - DEBUG - # loadWeatherFileToStage data frame size:(10683, 4)
+03-Apr-23 06:46:52 - DEBUG - # loadWeatherFileToStage rows: 10683
+03-Apr-23 06:46:52 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:52 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:52 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:52 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:55 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:46:55 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:46:55 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:55 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:55 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:55 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:46:57 - DEBUG - # loadWeatherFileToStage data frame size:(10927, 4)
+03-Apr-23 06:46:57 - DEBUG - # loadWeatherFileToStage rows: 10927
+03-Apr-23 06:46:57 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:46:57 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:46:57 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:46:57 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:00 - DEBUG - # loadWeatherFileToStage data frame size:(10562, 4)
+03-Apr-23 06:47:00 - DEBUG - # loadWeatherFileToStage rows: 10562
+03-Apr-23 06:47:00 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:00 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:00 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:00 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:02 - DEBUG - # loadWeatherFileToStage data frame size:(9556, 4)
+03-Apr-23 06:47:02 - DEBUG - # loadWeatherFileToStage rows: 9556
+03-Apr-23 06:47:02 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:02 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:02 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:02 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:04 - DEBUG - # loadWeatherFileToStage data frame size:(10803, 4)
+03-Apr-23 06:47:04 - DEBUG - # loadWeatherFileToStage rows: 10803
+03-Apr-23 06:47:04 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:04 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:04 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:04 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:06 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:47:06 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:47:06 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:06 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:06 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:06 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:08 - DEBUG - # loadWeatherFileToStage data frame size:(8219, 4)
+03-Apr-23 06:47:08 - DEBUG - # loadWeatherFileToStage rows: 8219
+03-Apr-23 06:47:08 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:08 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:08 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:08 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:11 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:47:11 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:47:11 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:11 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:11 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:11 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:13 - DEBUG - # loadWeatherFileToStage data frame size:(9343, 4)
+03-Apr-23 06:47:13 - DEBUG - # loadWeatherFileToStage rows: 9343
+03-Apr-23 06:47:13 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:13 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:13 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:13 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:14 - DEBUG - # loadWeatherFileToStage data frame size:(5811, 4)
+03-Apr-23 06:47:14 - DEBUG - # loadWeatherFileToStage rows: 5811
+03-Apr-23 06:47:14 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:14 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:14 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:14 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:16 - DEBUG - # loadWeatherFileToStage data frame size:(10468, 4)
+03-Apr-23 06:47:16 - DEBUG - # loadWeatherFileToStage rows: 10468
+03-Apr-23 06:47:16 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:16 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:16 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:16 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:18 - DEBUG - # loadWeatherFileToStage data frame size:(8918, 4)
+03-Apr-23 06:47:18 - DEBUG - # loadWeatherFileToStage rows: 8918
+03-Apr-23 06:47:18 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:18 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:18 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:18 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:21 - DEBUG - # loadWeatherFileToStage data frame size:(9771, 4)
+03-Apr-23 06:47:21 - DEBUG - # loadWeatherFileToStage rows: 9771
+03-Apr-23 06:47:21 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:21 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:21 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:21 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:22 - DEBUG - # loadWeatherFileToStage data frame size:(8126, 4)
+03-Apr-23 06:47:22 - DEBUG - # loadWeatherFileToStage rows: 8126
+03-Apr-23 06:47:22 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:22 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:22 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:22 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:23 - DEBUG - # loadWeatherFileToStage data frame size:(2069, 4)
+03-Apr-23 06:47:23 - DEBUG - # loadWeatherFileToStage rows: 2069
+03-Apr-23 06:47:23 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:23 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:23 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:23 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:25 - DEBUG - # loadWeatherFileToStage data frame size:(10806, 4)
+03-Apr-23 06:47:25 - DEBUG - # loadWeatherFileToStage rows: 10806
+03-Apr-23 06:47:25 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:25 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:25 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:25 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:27 - DEBUG - # loadWeatherFileToStage data frame size:(10469, 4)
+03-Apr-23 06:47:27 - DEBUG - # loadWeatherFileToStage rows: 10469
+03-Apr-23 06:47:27 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:27 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:27 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:27 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:30 - DEBUG - # loadWeatherFileToStage data frame size:(10745, 4)
+03-Apr-23 06:47:30 - DEBUG - # loadWeatherFileToStage rows: 10745
+03-Apr-23 06:47:30 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:30 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:30 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:30 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:32 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:47:32 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:47:32 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:32 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:32 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:32 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:35 - DEBUG - # loadWeatherFileToStage data frame size:(10836, 4)
+03-Apr-23 06:47:35 - DEBUG - # loadWeatherFileToStage rows: 10836
+03-Apr-23 06:47:35 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:35 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:35 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:35 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:37 - DEBUG - # loadWeatherFileToStage data frame size:(10713, 4)
+03-Apr-23 06:47:37 - DEBUG - # loadWeatherFileToStage rows: 10713
+03-Apr-23 06:47:37 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:37 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:37 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:37 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:40 - DEBUG - # loadWeatherFileToStage data frame size:(10896, 4)
+03-Apr-23 06:47:40 - DEBUG - # loadWeatherFileToStage rows: 10896
+03-Apr-23 06:47:40 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:40 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:40 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:40 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:42 - DEBUG - # loadWeatherFileToStage data frame size:(10652, 4)
+03-Apr-23 06:47:42 - DEBUG - # loadWeatherFileToStage rows: 10652
+03-Apr-23 06:47:42 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:42 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:42 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:42 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:44 - DEBUG - # loadWeatherFileToStage data frame size:(10836, 4)
+03-Apr-23 06:47:44 - DEBUG - # loadWeatherFileToStage rows: 10836
+03-Apr-23 06:47:44 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:44 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:44 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:44 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:47 - DEBUG - # loadWeatherFileToStage data frame size:(10866, 4)
+03-Apr-23 06:47:47 - DEBUG - # loadWeatherFileToStage rows: 10866
+03-Apr-23 06:47:47 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:47 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:47 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:47 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:49 - DEBUG - # loadWeatherFileToStage data frame size:(9681, 4)
+03-Apr-23 06:47:49 - DEBUG - # loadWeatherFileToStage rows: 9681
+03-Apr-23 06:47:49 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:49 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:49 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:49 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:51 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:47:51 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:47:51 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:51 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:51 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:51 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:54 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:47:54 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:47:54 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:54 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:54 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:54 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:55 - DEBUG - # loadWeatherFileToStage data frame size:(7609, 4)
+03-Apr-23 06:47:55 - DEBUG - # loadWeatherFileToStage rows: 7609
+03-Apr-23 06:47:55 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:55 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:55 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:55 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:47:58 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:47:58 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:47:58 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:47:58 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:47:58 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:47:58 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:00 - DEBUG - # loadWeatherFileToStage data frame size:(10926, 4)
+03-Apr-23 06:48:00 - DEBUG - # loadWeatherFileToStage rows: 10926
+03-Apr-23 06:48:00 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:00 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:00 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:00 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:03 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:48:03 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:48:03 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:03 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:03 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:03 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:05 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:48:05 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:48:05 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:05 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:05 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:05 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:07 - DEBUG - # loadWeatherFileToStage data frame size:(10135, 4)
+03-Apr-23 06:48:07 - DEBUG - # loadWeatherFileToStage rows: 10135
+03-Apr-23 06:48:07 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:07 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:07 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:07 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:10 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:48:10 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:48:10 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:10 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:10 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:10 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:12 - DEBUG - # loadWeatherFileToStage data frame size:(10957, 4)
+03-Apr-23 06:48:12 - DEBUG - # loadWeatherFileToStage rows: 10957
+03-Apr-23 06:48:12 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:12 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:12 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:12 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:15 - DEBUG - # loadWeatherFileToStage data frame size:(10652, 4)
+03-Apr-23 06:48:15 - DEBUG - # loadWeatherFileToStage rows: 10652
+03-Apr-23 06:48:15 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:15 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:15 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:15 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:17 - DEBUG - # loadWeatherFileToStage data frame size:(10804, 4)
+03-Apr-23 06:48:17 - DEBUG - # loadWeatherFileToStage rows: 10804
+03-Apr-23 06:48:17 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:17 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:17 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:17 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:20 - DEBUG - # loadWeatherFileToStage data frame size:(10772, 4)
+03-Apr-23 06:48:20 - DEBUG - # loadWeatherFileToStage rows: 10772
+03-Apr-23 06:48:20 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:20 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:20 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:20 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:22 - DEBUG - # loadWeatherFileToStage data frame size:(9861, 4)
+03-Apr-23 06:48:22 - DEBUG - # loadWeatherFileToStage rows: 9861
+03-Apr-23 06:48:22 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:22 - DEBUG - # loadWeatherFileToStage start
+03-Apr-23 06:48:22 - DEBUG - ##  loadWeatherFileToDF start
+03-Apr-23 06:48:22 - DEBUG - ##  loadWeatherFileToDF end
+03-Apr-23 06:48:24 - DEBUG - # loadWeatherFileToStage data frame size:(9374, 4)
+03-Apr-23 06:48:24 - DEBUG - # loadWeatherFileToStage rows: 9374
+03-Apr-23 06:48:24 - DEBUG - # loadWeatherFileToStage end
+03-Apr-23 06:48:24 - DEBUG - # loadDimDateFromWeather start
+03-Apr-23 06:48:26 - DEBUG - # loadDimDateFromWeather rows:10957
+03-Apr-23 06:48:26 - DEBUG - # loadDimDateFromWeather end
+03-Apr-23 06:48:26 - DEBUG - # loadDimWeatherStation start
+03-Apr-23 06:48:27 - DEBUG - # loadDimWeatherStation rows: 167
+03-Apr-23 06:48:27 - DEBUG - # loadDimWeatherStation end
+03-Apr-23 06:48:27 - DEBUG - # loadFactWeather start
+03-Apr-23 06:48:40 - DEBUG - # loadFactWeather rows: 1729957
+03-Apr-23 06:48:40 - DEBUG - # loadFactWeather end
+03-Apr-23 06:48:40 - DEBUG - --------------------Data Ingestion Main end------------------------
+03-Apr-23 06:48:41 - DEBUG - # CleanupStage start
+03-Apr-23 06:48:41 - DEBUG - # CleanupStage rows: 30
+03-Apr-23 06:49:35 - DEBUG - # CleanupStage rows: 1729957
+03-Apr-23 06:49:35 - DEBUG - # CleanupStage end
