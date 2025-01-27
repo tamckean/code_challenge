@@ -2,7 +2,7 @@
 # Corteva Code Challenge
 
 ## Solution response Document
-A solution response document has been provided that outlines the answer ro each problem.  It is intended as a summary document and is supported by additional data in this readmme files that is spcific to set and execution of the solution.
+A solution response document has been provided that outlines the answer to each problem.  It is intended as a summary document and is supported by additional data in this readmme files that is spcific to set and execution of the solution.
 
 ## Problem #1 - Data Model
 ### Summary of Solution
